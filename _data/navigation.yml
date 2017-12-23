@@ -1,0 +1,21 @@
+# main links
+main:
+  - title: "Search"
+    url: /search/
+  - title: "Techpubs"
+    url: /techpubs/
+    subtitle:
+      - title: "Programming"
+        url: /techpubs/programming/
+      - title: "Languages"
+        url: /techpubs/languages/    
+  - title: "About"
+    url: /about/
+  - title: "Resources"
+    url: /resources/
+ #- title: "Sample Posts"
+ #    url: /year-archive/
+ # - title: "Sample Collections"
+ #    url: /collection-archive/
+ # - title: "Sitemap"
+ #    url: /sitemap/
