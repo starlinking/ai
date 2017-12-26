@@ -17,6 +17,8 @@ toc: true
 
 ## Blogs
 
+* [Machine Learning Mastery](https://machinelearningmastery.com/blog/)
+
 ## Coursera
 
 * 台大資工副教授林軒田 
@@ -40,4 +42,21 @@ toc: true
 * [台大資工所林軒田](https://goo.gl/YWWbzc)
 	* Machine Learning Foundations
 	* Machine Learning Techniques
+
+## WeChat Official Accounts
+
+* BigQuant
+* 机器之心
+* 新智元
+* 奇点
+
+## Weibo
+
+* 算法组
+* 爱可可-爱生活
+
+
+
+
+
 
