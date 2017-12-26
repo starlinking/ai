@@ -28,6 +28,15 @@ var idx = lunr(function () {
     });
     
   
+    idx.add({
+      title: "AI Deep Learning Frameworks",
+      excerpt: "\n  \n    \n      Framework\n      GitHub Stars\n      Supporter\n    \n  \n  \n    \n      TensorFlow\n      83,495\n      Google\n    \n    \n      CNTK\n      13,451\n      Microsoft\n    \n    \n      MXNET\n      12,531\n      Amazon\n    \n    \n      Pytorch\n      10,547\n      Facebook\n    \n    \n      Cafee2\n      6,620\n      Facebook\n    \n  \n\n\n\n\n\n\n",
+      categories: ["DL"],
+      tags: ["AI","machine learning","deep learning"],
+      id: 2
+    });
+    
+  
 
 
 console.log( jQuery.type(idx) );
@@ -53,6 +62,17 @@ var store = [
         "title": "Machine Learning Project Checklist",
         "url": "http://172.17.4.236:4000/techpubs/ml/MLPC/",
         "excerpt": "Frame the problem and look at the big picture. Get the data. Explore the data to gain insights. Prepare the...",
+        "teaser":
+          
+            null
+          
+      },
+    
+      
+      {
+        "title": "AI Deep Learning Frameworks",
+        "url": "http://172.17.4.236:4000/techpubs/dl/Frameworks/",
+        "excerpt": "\n  \n    \n      Framework\n      GitHub Stars\n      Supporter\n    \n  \n  \n    \n      TensorFlow\n      83,495\n      Google\n    \n    \n      CNTK\n      13,451\n      Microsoft\n    \n    \n      MXNET\n      12,531\n      Amazon\n    \n    \n      Pytorch\n      10,547\n      Facebook\n    \n    \n      Cafee2\n      6,620\n      Facebook\n    \n  \n\n\n\n\n\n\n",
         "teaser":
           
             null
