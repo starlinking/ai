@@ -46,6 +46,12 @@ toc: true
 	* Machine Learning Foundations
 	* Machine Learning Techniques
 
+## Intel AI Academy
+
+* [Machine Learning 101](https://software.intel.com/en-us/ai-academy/students/kits/machine-learning-101){:target="_blank"}
+* [Deep Learning 101](https://software.intel.com/en-us/ai-academy/students/kits/deep-learning-101){:target="_blank"}
+* [TensorFlow 101](https://software.intel.com/en-us/ai-academy/students/kits/tensor-flow-101/week1){:target="_blank"} 
+
 ## WeChat Official Accounts
 
 * BigQuant
