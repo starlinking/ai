@@ -16,8 +16,10 @@ toc: true
 * [白話大數據與機器學習](http://www.books.com.tw/products/0010755657){:target="_blank"}
 * [初探機器學習：使用Python](http://www.books.com.tw/products/0010764445){:target="_blank"}
 
-## Blogs
+## Blog / Website
 
+* [Synced - AI Technology and Industry](https://syncedreview.com/){:target="_blank"}
+* [Towards Data Science](https://towardsdatascience.com/){:target="_blank"}
 * [Machine Learning Mastery](https://machinelearningmastery.com/blog/){:target="_blank"}
 
 ## Coursera
