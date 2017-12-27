@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://172.17.4.236:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://172.17.4.236:4000/" rel="alternate" type="text/html" /><updated>2017-12-26T20:54:50-05:00</updated><id>http://172.17.4.236:4000/</id><title type="html">Human Technology</title><subtitle>An Open and Sharing Site!</subtitle><author><name>AIMLDL</name></author><entry><title type="html">AI Deep Learning Frameworks</title><link href="http://172.17.4.236:4000/techpubs/dl/Frameworks/" rel="alternate" type="text/html" title="AI Deep Learning Frameworks" /><published>2017-12-26T00:00:00-05:00</published><updated>2017-12-26T00:00:00-05:00</updated><id>http://172.17.4.236:4000/techpubs/dl/Frameworks</id><content type="html" xml:base="http://172.17.4.236:4000/techpubs/dl/Frameworks/">&lt;table rules=&quot;groups&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://172.17.4.236:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://172.17.4.236:4000/" rel="alternate" type="text/html" /><updated>2017-12-26T21:32:42-05:00</updated><id>http://172.17.4.236:4000/</id><title type="html">Human Technology</title><subtitle>An Open and Sharing Site!</subtitle><author><name>AIMLDL</name></author><entry><title type="html">AI Deep Learning Frameworks</title><link href="http://172.17.4.236:4000/techpubs/dl/Frameworks/" rel="alternate" type="text/html" title="AI Deep Learning Frameworks" /><published>2017-12-26T00:00:00-05:00</published><updated>2017-12-26T00:00:00-05:00</updated><id>http://172.17.4.236:4000/techpubs/dl/Frameworks</id><content type="html" xml:base="http://172.17.4.236:4000/techpubs/dl/Frameworks/">&lt;table rules=&quot;groups&quot;&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th style=&quot;text-align: left&quot;&gt;Framework&lt;/th&gt;
@@ -28,7 +28,7 @@
       &lt;td style=&quot;text-align: right&quot;&gt;Facebook&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Cafee2&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Caffe2&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;6,620&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;Facebook&lt;/td&gt;
     &lt;/tr&gt;
@@ -41,7 +41,16 @@
 
 &lt;hr /&gt;
 
-&lt;hr /&gt;</content><author><name>AIMLDL</name></author><category term="AI" /><category term="machine learning" /><category term="deep learning" /><summary type="html">Framework GitHub Stars (12/26/17) Supporter TensorFlow 83,495 Google CNTK 13,451 Microsoft MXNET 12,531 Amazon Pytorch 10,547 Facebook Cafee2 6,620 Facebook</summary></entry><entry><title type="html">Machine Learning Project Checklist</title><link href="http://172.17.4.236:4000/techpubs/ml/MLPC/" rel="alternate" type="text/html" title="Machine Learning Project Checklist" /><published>2017-12-24T00:00:00-05:00</published><updated>2017-12-24T00:00:00-05:00</updated><id>http://172.17.4.236:4000/techpubs/ml/MLPC</id><content type="html" xml:base="http://172.17.4.236:4000/techpubs/ml/MLPC/">&lt;ol&gt;
+&lt;ul&gt;
+  &lt;li&gt;Theano: MILA團隊終止開發，1.0版本後將不再更新版本。&lt;/li&gt;
+  &lt;li&gt;TensorFlow: 可選擇結合Python或C++程式語言環境各別開發，1.4版新增tf.keras。&lt;/li&gt;
+  &lt;li&gt;CNTK: Microsoft Cognitive Toolkit，最新版本2.3，支援多種開發語言，和Nvidia密切合作。&lt;/li&gt;
+  &lt;li&gt;MXNET: 基於Apache MXNet，Amazon NMT開源框架Sockeye。&lt;/li&gt;
+  &lt;li&gt;Pytorch: PyTorch的其一好處是能讓初學者更深入地瞭解每個演算法中發生原由。&lt;/li&gt;
+  &lt;li&gt;Caffe2: Caffe原創賈揚清，2016年2月由Google Brain轉戰Facebook，又一力作。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;</content><author><name>AIMLDL</name></author><category term="AI" /><category term="machine learning" /><category term="deep learning" /><summary type="html">Framework GitHub Stars (12/26/17) Supporter TensorFlow 83,495 Google CNTK 13,451 Microsoft MXNET 12,531 Amazon Pytorch 10,547 Facebook Caffe2 6,620 Facebook</summary></entry><entry><title type="html">Machine Learning Project Checklist</title><link href="http://172.17.4.236:4000/techpubs/ml/MLPC/" rel="alternate" type="text/html" title="Machine Learning Project Checklist" /><published>2017-12-24T00:00:00-05:00</published><updated>2017-12-24T00:00:00-05:00</updated><id>http://172.17.4.236:4000/techpubs/ml/MLPC</id><content type="html" xml:base="http://172.17.4.236:4000/techpubs/ml/MLPC/">&lt;ol&gt;
   &lt;li&gt;Frame the problem and look at the big picture.&lt;/li&gt;
   &lt;li&gt;Get the data.&lt;/li&gt;
   &lt;li&gt;Explore the data to gain insights.&lt;/li&gt;
