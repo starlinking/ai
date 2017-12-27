@@ -30,7 +30,7 @@ var idx = lunr(function () {
   
     idx.add({
       title: "AI Deep Learning Frameworks",
-      excerpt: "\n  \n    \n      Framework\n      GitHub Stars\n      Supporter\n    \n  \n  \n    \n      TensorFlow\n      83,495\n      Google\n    \n    \n      CNTK\n      13,451\n      Microsoft\n    \n    \n      MXNET\n      12,531\n      Amazon\n    \n    \n      Pytorch\n      10,547\n      Facebook\n    \n    \n      Cafee2\n      6,620\n      Facebook\n    \n  \n\n\n\n\n\n\n",
+      excerpt: "Framework GitHub Stars (12/26/17) Supporter TensorFlow 83,495 Google CNTK 13,451 Microsoft MXNET 12,531 Amazon Pytorch 10,547 Facebook Cafee2 6,620 Facebook...",
       categories: ["DL"],
       tags: ["AI","machine learning","deep learning"],
       id: 2
@@ -72,7 +72,7 @@ var store = [
       {
         "title": "AI Deep Learning Frameworks",
         "url": "http://172.17.4.236:4000/techpubs/dl/Frameworks/",
-        "excerpt": "\n  \n    \n      Framework\n      GitHub Stars\n      Supporter\n    \n  \n  \n    \n      TensorFlow\n      83,495\n      Google\n    \n    \n      CNTK\n      13,451\n      Microsoft\n    \n    \n      MXNET\n      12,531\n      Amazon\n    \n    \n      Pytorch\n      10,547\n      Facebook\n    \n    \n      Cafee2\n      6,620\n      Facebook\n    \n  \n\n\n\n\n\n\n",
+        "excerpt": "Framework GitHub Stars (12/26/17) Supporter TensorFlow 83,495 Google CNTK 13,451 Microsoft MXNET 12,531 Amazon Pytorch 10,547 Facebook Cafee2 6,620 Facebook...",
         "teaser":
           
             null
