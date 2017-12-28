@@ -37,6 +37,15 @@ var idx = lunr(function () {
     });
     
   
+    idx.add({
+      title: "Linux Distributions",
+      excerpt: "CentOS/RHEL-based Distribution Description RHEL Red Hat Linux for commercial marker CentOS A free, enterprise-class, community-supported distro. Scientific Linux Co-developed by...",
+      categories: ["Linux"],
+      tags: ["CentOS/RHEL-based","Debian-based"],
+      id: 3
+    });
+    
+  
 
 
 console.log( jQuery.type(idx) );
@@ -73,6 +82,17 @@ var store = [
         "title": "AI Deep Learning Frameworks",
         "url": "http://172.17.4.236:4000/techpubs/dl/Frameworks/",
         "excerpt": "Framework GitHub Stars (12/26/17) Supporter TensorFlow 83,495 Google CNTK 13,451 Microsoft MXNET 12,531 Amazon Pytorch 10,547 Facebook Caffe2 6,620 Facebook...",
+        "teaser":
+          
+            null
+          
+      },
+    
+      
+      {
+        "title": "Linux Distributions",
+        "url": "http://172.17.4.236:4000/techpubs/linux/Linux/",
+        "excerpt": "CentOS/RHEL-based Distribution Description RHEL Red Hat Linux for commercial marker CentOS A free, enterprise-class, community-supported distro. Scientific Linux Co-developed by...",
         "teaser":
           
             null
