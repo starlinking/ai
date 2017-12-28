@@ -40,6 +40,7 @@ toc: true
 	* Convolutional Neural Network by Andrew Ng
 	* Probabilistic Graphical Model by Daphne Koller
 	* Deep Learning by Andrew Ng
+* [Fei-Fei Li - CNN for Visual Recognition](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv){:target="_blank"}
 * [台大網媒所李宏毅](https://goo.gl/RoZm3N){:target="_blank"}
 	* Machine Learning
 	* Advanced Topics in Deep Learning
