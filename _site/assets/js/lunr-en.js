@@ -39,7 +39,7 @@ var idx = lunr(function () {
   
     idx.add({
       title: "Linux Distributions",
-      excerpt: "CentOS/RHEL-based Distribution Description RHEL Red Hat Linux for commercial marker CentOS A free, enterprise-class, community-supported distro. Scientific Linux Co-developed by...",
+      excerpt: "CentOS/RHEL-based Distribution Description RHEL Red Hat Linux for commercial market CentOS A free, enterprise-class, community-supported distro. Scientific Linux Co-developed by...",
       categories: ["Linux"],
       tags: ["CentOS/RHEL-based","Debian-based"],
       id: 3
@@ -92,7 +92,7 @@ var store = [
       {
         "title": "Linux Distributions",
         "url": "http://172.17.4.236:4000/techpubs/linux/Linux/",
-        "excerpt": "CentOS/RHEL-based Distribution Description RHEL Red Hat Linux for commercial marker CentOS A free, enterprise-class, community-supported distro. Scientific Linux Co-developed by...",
+        "excerpt": "CentOS/RHEL-based Distribution Description RHEL Red Hat Linux for commercial market CentOS A free, enterprise-class, community-supported distro. Scientific Linux Co-developed by...",
         "teaser":
           
             null
