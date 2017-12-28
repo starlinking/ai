@@ -15,6 +15,7 @@ toc: true
 * [Thoughtful Machine Learning](https://www.amazon.com/Thoughtful-Machine-Learning-Test-Driven-Approach/dp/1449374069/ref=sr_1_1?s=books&ie=UTF8&qid=1514190783&sr=1-1&keywords=Thoughtful+Machine+Learning){:target="_blank"}
 * [白話大數據與機器學習](http://www.books.com.tw/products/0010755657){:target="_blank"}
 * [Deep Learning - 用Python進行深度學習的基礎理論實作](https://github.com/oreilly-japan/deep-learning-from-scratch){:target="_blank"}
+	* [Errata](https://github.com/oreilly-japan/deep-learning-from-scratch/wiki/errata){:target="_blank"}
 
 ## Blog / Website
 
