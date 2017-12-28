@@ -46,6 +46,24 @@ var idx = lunr(function () {
     });
     
   
+    idx.add({
+      title: "Debian-based",
+      excerpt: "File Systems\n\nPackage Management\n\nSystem Configuration\n\nNetwork Configuration\n\nSystem Monitoring\n\nKernel and Driver Configuration\n\nSecurity and Authentication\n\n\n\n\n  分享上述Linux指令，其有助於提升實務上的工作效率。\n\n\n\n\n",
+      categories: ["Linux"],
+      tags: ["Debian-based"],
+      id: 4
+    });
+    
+  
+    idx.add({
+      title: "CentOS/RHEL-based",
+      excerpt: "File Systems\n\nPackage Management\n\nSystem Configuration\n\nNetwork Configuration\n\nSystem Monitoring\n\nKernel and Driver Configuration\n\nSecurity and Authentication\n\n\n\n\n  分享上述Linux指令，其有助於提升實務上的工作效率。\n\n\n\n\n",
+      categories: ["Linux"],
+      tags: ["CentOS/RHEL-based"],
+      id: 5
+    });
+    
+  
 
 
 console.log( jQuery.type(idx) );
@@ -93,6 +111,28 @@ var store = [
         "title": "Linux Distributions",
         "url": "http://172.17.4.236:4000/techpubs/linux/Linux/",
         "excerpt": "CentOS/RHEL-based Distribution Description RHEL Red Hat Linux for commercial market CentOS A free, enterprise-class, community-supported distro. Scientific Linux Co-developed by...",
+        "teaser":
+          
+            null
+          
+      },
+    
+      
+      {
+        "title": "Debian-based",
+        "url": "http://172.17.4.236:4000/techpubs/linux/Debian-Like/",
+        "excerpt": "File Systems\n\nPackage Management\n\nSystem Configuration\n\nNetwork Configuration\n\nSystem Monitoring\n\nKernel and Driver Configuration\n\nSecurity and Authentication\n\n\n\n\n  分享上述Linux指令，其有助於提升實務上的工作效率。\n\n\n\n\n",
+        "teaser":
+          
+            null
+          
+      },
+    
+      
+      {
+        "title": "CentOS/RHEL-based",
+        "url": "http://172.17.4.236:4000/techpubs/linux/RedHat-Like/",
+        "excerpt": "File Systems\n\nPackage Management\n\nSystem Configuration\n\nNetwork Configuration\n\nSystem Monitoring\n\nKernel and Driver Configuration\n\nSecurity and Authentication\n\n\n\n\n  分享上述Linux指令，其有助於提升實務上的工作效率。\n\n\n\n\n",
         "teaser":
           
             null

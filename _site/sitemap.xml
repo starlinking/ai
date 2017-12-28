@@ -17,6 +17,14 @@
 <lastmod>2017-12-27T00:00:00-05:00</lastmod>
 </url>
 <url>
+<loc>http://172.17.4.236:4000/techpubs/linux/Debian-Like/</loc>
+<lastmod>2017-12-28T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>http://172.17.4.236:4000/techpubs/linux/RedHat-Like/</loc>
+<lastmod>2017-12-28T00:00:00-05:00</lastmod>
+</url>
+<url>
 <loc>http://172.17.4.236:4000/about/</loc>
 <lastmod>2017-12-25T19:07:14-05:00</lastmod>
 </url>
@@ -35,5 +43,8 @@
 </url>
 <url>
 <loc>http://172.17.4.236:4000/techpubs/</loc>
+</url>
+<url>
+<loc>http://172.17.4.236:4000/page2/</loc>
 </url>
 </urlset>

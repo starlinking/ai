@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://172.17.4.236:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://172.17.4.236:4000/" rel="alternate" type="text/html" /><updated>2017-12-27T23:59:24-05:00</updated><id>http://172.17.4.236:4000/</id><title type="html">Human Technology</title><subtitle>An Open and Sharing Site!</subtitle><author><name>AIMLDL</name></author><entry><title type="html">Linux Distributions</title><link href="http://172.17.4.236:4000/techpubs/linux/Linux/" rel="alternate" type="text/html" title="Linux Distributions" /><published>2017-12-27T00:00:00-05:00</published><updated>2017-12-27T00:00:00-05:00</updated><id>http://172.17.4.236:4000/techpubs/linux/Linux</id><content type="html" xml:base="http://172.17.4.236:4000/techpubs/linux/Linux/">&lt;h2 id=&quot;centosrhel-based&quot;&gt;CentOS/RHEL-based&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://172.17.4.236:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://172.17.4.236:4000/" rel="alternate" type="text/html" /><updated>2017-12-28T00:38:56-05:00</updated><id>http://172.17.4.236:4000/</id><title type="html">Human Technology</title><subtitle>An Open and Sharing Site!</subtitle><author><name>AIMLDL</name></author><entry><title type="html">CentOS/RHEL-based</title><link href="http://172.17.4.236:4000/techpubs/linux/RedHat-Like/" rel="alternate" type="text/html" title="CentOS/RHEL-based" /><published>2017-12-28T00:00:00-05:00</published><updated>2017-12-28T00:00:00-05:00</updated><id>http://172.17.4.236:4000/techpubs/linux/RedHat-Like</id><content type="html" xml:base="http://172.17.4.236:4000/techpubs/linux/RedHat-Like/">&lt;h2 id=&quot;file-systems&quot;&gt;File Systems&lt;/h2&gt;
+
+&lt;h2 id=&quot;package-management&quot;&gt;Package Management&lt;/h2&gt;
+
+&lt;h2 id=&quot;system-configuration&quot;&gt;System Configuration&lt;/h2&gt;
+
+&lt;h2 id=&quot;network-configuration&quot;&gt;Network Configuration&lt;/h2&gt;
+
+&lt;h2 id=&quot;system-monitoring&quot;&gt;System Monitoring&lt;/h2&gt;
+
+&lt;h2 id=&quot;kernel-and-driver-configuration&quot;&gt;Kernel and Driver Configuration&lt;/h2&gt;
+
+&lt;h2 id=&quot;security-and-authentication&quot;&gt;Security and Authentication&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;分享上述Linux指令，其有助於提升實務上的工作效率。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;</content><author><name>AIMLDL</name></author><category term="CentOS/RHEL-based" /><summary type="html">File Systems</summary></entry><entry><title type="html">Debian-based</title><link href="http://172.17.4.236:4000/techpubs/linux/Debian-Like/" rel="alternate" type="text/html" title="Debian-based" /><published>2017-12-28T00:00:00-05:00</published><updated>2017-12-28T00:00:00-05:00</updated><id>http://172.17.4.236:4000/techpubs/linux/Debian-Like</id><content type="html" xml:base="http://172.17.4.236:4000/techpubs/linux/Debian-Like/">&lt;h2 id=&quot;file-systems&quot;&gt;File Systems&lt;/h2&gt;
+
+&lt;h2 id=&quot;package-management&quot;&gt;Package Management&lt;/h2&gt;
+
+&lt;h2 id=&quot;system-configuration&quot;&gt;System Configuration&lt;/h2&gt;
+
+&lt;h2 id=&quot;network-configuration&quot;&gt;Network Configuration&lt;/h2&gt;
+
+&lt;h2 id=&quot;system-monitoring&quot;&gt;System Monitoring&lt;/h2&gt;
+
+&lt;h2 id=&quot;kernel-and-driver-configuration&quot;&gt;Kernel and Driver Configuration&lt;/h2&gt;
+
+&lt;h2 id=&quot;security-and-authentication&quot;&gt;Security and Authentication&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;分享上述Linux指令，其有助於提升實務上的工作效率。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;</content><author><name>AIMLDL</name></author><category term="Debian-based" /><summary type="html">File Systems</summary></entry><entry><title type="html">Linux Distributions</title><link href="http://172.17.4.236:4000/techpubs/linux/Linux/" rel="alternate" type="text/html" title="Linux Distributions" /><published>2017-12-27T00:00:00-05:00</published><updated>2017-12-27T00:00:00-05:00</updated><id>http://172.17.4.236:4000/techpubs/linux/Linux</id><content type="html" xml:base="http://172.17.4.236:4000/techpubs/linux/Linux/">&lt;h2 id=&quot;centosrhel-based&quot;&gt;CentOS/RHEL-based&lt;/h2&gt;
 
 &lt;table rules=&quot;groups&quot;&gt;
   &lt;thead&gt;
