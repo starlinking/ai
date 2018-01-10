@@ -1,10 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://172.17.4.236:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://172.17.4.236:4000/" rel="alternate" type="text/html" /><updated>2017-12-28T02:04:18-05:00</updated><id>http://172.17.4.236:4000/</id><title type="html">Human Technology</title><subtitle>An Open and Sharing Site!</subtitle><author><name>AIMLDL</name></author><entry><title type="html">CentOS/RHEL-based</title><link href="http://172.17.4.236:4000/techpubs/linux/RedHat-Like/" rel="alternate" type="text/html" title="CentOS/RHEL-based" /><published>2017-12-28T00:00:00-05:00</published><updated>2017-12-28T00:00:00-05:00</updated><id>http://172.17.4.236:4000/techpubs/linux/RedHat-Like</id><content type="html" xml:base="http://172.17.4.236:4000/techpubs/linux/RedHat-Like/">&lt;h2 id=&quot;file-systems&quot;&gt;File Systems&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://172.17.4.236:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://172.17.4.236:4000/" rel="alternate" type="text/html" /><updated>2018-01-10T01:58:08-05:00</updated><id>http://172.17.4.236:4000/</id><title type="html">Human Technology</title><subtitle>An Open and Sharing Site!</subtitle><author><name>AIMLDL</name></author><entry><title type="html">CentOS/RHEL-based</title><link href="http://172.17.4.236:4000/techpubs/linux/RedHat-Like/" rel="alternate" type="text/html" title="CentOS/RHEL-based" /><published>2017-12-28T00:00:00-05:00</published><updated>2017-12-28T00:00:00-05:00</updated><id>http://172.17.4.236:4000/techpubs/linux/RedHat-Like</id><content type="html" xml:base="http://172.17.4.236:4000/techpubs/linux/RedHat-Like/">&lt;h2 id=&quot;file-systems&quot;&gt;File Systems&lt;/h2&gt;
 
 &lt;h2 id=&quot;package-management&quot;&gt;Package Management&lt;/h2&gt;
 
 &lt;h2 id=&quot;system-configuration&quot;&gt;System Configuration&lt;/h2&gt;
 
 &lt;h2 id=&quot;network-configuration&quot;&gt;Network Configuration&lt;/h2&gt;
+
+&lt;p&gt;network config file path&lt;/p&gt;
+
+&lt;p&gt;/etc/sysconfig/networking-scripts/&lt;/p&gt;
 
 &lt;h2 id=&quot;system-monitoring&quot;&gt;System Monitoring&lt;/h2&gt;
 
@@ -140,18 +144,13 @@
 
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1000/1*dYjDEI0mLpsCOySKUuX1VA.png&quot; alt=&quot;State of open source deep learning frameworks in 2017&quot; /&gt;&lt;/p&gt;
 
-&lt;hr /&gt;
-
-&lt;ul&gt;
+&lt;ul class=&quot;notice--warning&quot;&gt;
   &lt;li&gt;Theano: MILA團隊終止開發，1.0版本後將不再更新版本。&lt;/li&gt;
   &lt;li&gt;TensorFlow: 可選擇結合Python或C++程式語言環境各別開發，1.4版新增tf.keras。&lt;/li&gt;
   &lt;li&gt;CNTK: Microsoft Cognitive Toolkit，最新版本2.3，支援多種開發語言，和Nvidia密切合作。&lt;/li&gt;
   &lt;li&gt;MXNET: 基於Apache MXNet，Amazon NMT開源框架Sockeye。&lt;/li&gt;
-  &lt;li&gt;Pytorch: PyTorch的其一好處是能讓初學者更深入地瞭解每個演算法中發生原由。&lt;/li&gt;
-  &lt;li&gt;Caffe2: Caffe原創賈揚清，2016年2月由Google Brain轉戰Facebook，又一力作。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;</content><author><name>AIMLDL</name></author><category term="AI" /><category term="machine learning" /><category term="deep learning" /><summary type="html">Framework GitHub Stars (12/26/17) Supporter TensorFlow 83,495 Google CNTK 13,451 Microsoft MXNET 12,531 Amazon Pytorch 10,547 Facebook Caffe2 6,620 Facebook</summary></entry><entry><title type="html">Machine Learning Project Checklist</title><link href="http://172.17.4.236:4000/techpubs/ml/MLPC/" rel="alternate" type="text/html" title="Machine Learning Project Checklist" /><published>2017-12-24T00:00:00-05:00</published><updated>2017-12-24T00:00:00-05:00</updated><id>http://172.17.4.236:4000/techpubs/ml/MLPC</id><content type="html" xml:base="http://172.17.4.236:4000/techpubs/ml/MLPC/">&lt;ol&gt;
+  &lt;li&gt;Pytorch: PyTorch的其一好處是能讓初學者更深入地瞭解每個演算法中發生原由。Caffe2: Caffe原創賈揚清，2016年2月由Google Brain轉戰Facebook，又一力作。&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>AIMLDL</name></author><category term="AI" /><category term="machine learning" /><category term="deep learning" /><summary type="html">Framework GitHub Stars (12/26/17) Supporter TensorFlow 83,495 Google CNTK 13,451 Microsoft MXNET 12,531 Amazon Pytorch 10,547 Facebook Caffe2 6,620 Facebook</summary></entry><entry><title type="html">Machine Learning Project Checklist</title><link href="http://172.17.4.236:4000/techpubs/ml/MLPC/" rel="alternate" type="text/html" title="Machine Learning Project Checklist" /><published>2017-12-24T00:00:00-05:00</published><updated>2017-12-24T00:00:00-05:00</updated><id>http://172.17.4.236:4000/techpubs/ml/MLPC</id><content type="html" xml:base="http://172.17.4.236:4000/techpubs/ml/MLPC/">&lt;ol&gt;
   &lt;li&gt;Frame the problem and look at the big picture.&lt;/li&gt;
   &lt;li&gt;Get the data.&lt;/li&gt;
   &lt;li&gt;Explore the data to gain insights.&lt;/li&gt;

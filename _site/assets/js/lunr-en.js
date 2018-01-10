@@ -57,7 +57,7 @@ var idx = lunr(function () {
   
     idx.add({
       title: "CentOS/RHEL-based",
-      excerpt: "File Systems\n\nPackage Management\n\nSystem Configuration\n\nNetwork Configuration\n\nSystem Monitoring\n\nKernel and Driver Configuration\n\nSecurity and Authentication\n\n\n\n\n  分享上述Linux指令，其有助於提升實務上的工作效率。\n\n\n\n\n",
+      excerpt: "File Systems Package Management System Configuration Network Configuration network config file path /etc/sysconfig/networking-scripts/ System Monitoring Kernel and Driver Configuration Security...",
       categories: ["Linux"],
       tags: ["CentOS/RHEL-based"],
       id: 5
@@ -132,7 +132,7 @@ var store = [
       {
         "title": "CentOS/RHEL-based",
         "url": "http://172.17.4.236:4000/techpubs/linux/RedHat-Like/",
-        "excerpt": "File Systems\n\nPackage Management\n\nSystem Configuration\n\nNetwork Configuration\n\nSystem Monitoring\n\nKernel and Driver Configuration\n\nSecurity and Authentication\n\n\n\n\n  分享上述Linux指令，其有助於提升實務上的工作效率。\n\n\n\n\n",
+        "excerpt": "File Systems Package Management System Configuration Network Configuration network config file path /etc/sysconfig/networking-scripts/ System Monitoring Kernel and Driver Configuration Security...",
         "teaser":
           
             null

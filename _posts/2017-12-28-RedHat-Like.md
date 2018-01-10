@@ -15,6 +15,11 @@ toc: true
 
 ## Network Configuration
 
+network config file path
+	
+/etc/sysconfig/networking-scripts/
+
+				
 ## System Monitoring
 
 ## Kernel and Driver Configuration
