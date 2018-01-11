@@ -22,6 +22,7 @@ toc: true
 * [Synced - AI Technology and Industry](https://syncedreview.com/){:target="_blank"}
 * [Towards Data Science](https://towardsdatascience.com/){:target="_blank"}
 * [Machine Learning Mastery](https://machinelearningmastery.com/blog/){:target="_blank"}
+* [机器之心](https://www.jiqizhixin.com/){:target="_blank"}
 
 ## Coursera
 
