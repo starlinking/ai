@@ -57,10 +57,10 @@ toc: true
 
 ## Taiwan AI Stars
 
-* [appier](http://www.appier.com){:target="_blank"}
-* [deepforce](http://www.deepforce.com){:target="_blank"}
-* [umbo](http://www.umbocv.ai){:target="_blank"}
-* [dt42](http://www.dt42.io){:target="_blank"}
+* [Appier](http://www.appier.com){:target="_blank"}
+* [Deep Force](http://www.deepforce.com){:target="_blank"}
+* [Umbo Computer Vision](http://www.umbocv.ai){:target="_blank"}
+* [DT42](http://www.dt42.io){:target="_blank"}
 
 ## Facebook Clubs
 
