@@ -55,20 +55,27 @@ toc: true
 * [Deep Learning 101](https://software.intel.com/en-us/ai-academy/students/kits/deep-learning-101){:target="_blank"}
 * [TensorFlow 101](https://software.intel.com/en-us/ai-academy/students/kits/tensor-flow-101/week1){:target="_blank"} 
 
+## Taiwan AI Stars
+
+* [appier](http://www.appier.com){:target="_blank"}
+* [deepforce](http://www.deepforce.com){:target="_blank"}
+* [umbo](http://www.umbocv.ai){:target="_blank"}
+* [dt42](http://www.dt42.io){:target="_blank"}
+
+## Facebook Clubs
+
+* 台灣「人工智慧」社團
+* 讀書肚 (dosudo)
+
 ## WeChat Official Accounts
 
 * BigQuant
 * 机器之心
 * 新智元
+* 智东西
 * 奇点
 
 ## Weibo
 
 * 算法组
 * 爱可可-爱生活
-
-
-
-
-
-
