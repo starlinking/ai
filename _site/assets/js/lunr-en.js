@@ -76,7 +76,7 @@ var idx = lunr(function () {
     idx.add({
       title: "Best Practices for KVM",
       excerpt: "KVM Learn about the best practices for Kernel-based Virtual Machine (KVM), including device virtualization for guest operating systems, over-committing processor...",
-      categories: ["LVM"],
+      categories: ["KVM"],
       tags: ["Linux"],
       id: 7
     });
@@ -94,7 +94,7 @@ var store = [
       
       {
         "title": "Getting Started",
-        "url": "http://172.17.5.42:4000/techpubs/ml/Getting_Started/",
+        "url": "http://localhost:4000/techpubs/ml/Getting_Started/",
         "excerpt": "Machine Learning: Use data to compute hypothesis g that appromimates target f Data Mining: Use (huge) data to find property...",
         "teaser":
           
@@ -105,7 +105,7 @@ var store = [
       
       {
         "title": "Machine Learning Project Checklist",
-        "url": "http://172.17.5.42:4000/techpubs/ml/MLPC/",
+        "url": "http://localhost:4000/techpubs/ml/MLPC/",
         "excerpt": "Frame the problem and look at the big picture. Get the data. Explore the data to gain insights. Prepare the...",
         "teaser":
           
@@ -116,7 +116,7 @@ var store = [
       
       {
         "title": "AI Deep Learning Frameworks",
-        "url": "http://172.17.5.42:4000/techpubs/dl/Frameworks/",
+        "url": "http://localhost:4000/techpubs/dl/Frameworks/",
         "excerpt": "Framework GitHub Stars (12/26/17) Supporter TensorFlow 83,495 Google CNTK 13,451 Microsoft MXNET 12,531 Amazon Pytorch 10,547 Facebook Caffe2 6,620 Facebook...",
         "teaser":
           
@@ -127,7 +127,7 @@ var store = [
       
       {
         "title": "Linux Distributions",
-        "url": "http://172.17.5.42:4000/techpubs/linux/Linux/",
+        "url": "http://localhost:4000/techpubs/linux/Linux/",
         "excerpt": "CentOS/RHEL-based Distribution Description RHEL Red Hat Linux for commercial market CentOS A free, enterprise-class, community-supported distro. Scientific Linux Co-developed by...",
         "teaser":
           
@@ -138,7 +138,7 @@ var store = [
       
       {
         "title": "Debian-based",
-        "url": "http://172.17.5.42:4000/techpubs/linux/Debian-Like/",
+        "url": "http://localhost:4000/techpubs/linux/Debian-Like/",
         "excerpt": "File Systems\n\nPackage Management\n\nSystem Configuration\n\nNetwork Configuration\n\nSystem Monitoring\n\nKernel and Driver Configuration\n\nSecurity and Authentication\n\n\n\n\n  分享上述Linux指令，其有助於提升實務上的工作效率。\n\n\n\n\n",
         "teaser":
           
@@ -149,7 +149,7 @@ var store = [
       
       {
         "title": "CentOS/RHEL-based",
-        "url": "http://172.17.5.42:4000/techpubs/linux/RedHat-Like/",
+        "url": "http://localhost:4000/techpubs/linux/RedHat-Like/",
         "excerpt": "File Systems ###https://goo.gl/vhW1xD / ├── bin user binaries ├── boot boot loader files ├── dev device files ├── etc configuration...",
         "teaser":
           
@@ -160,7 +160,7 @@ var store = [
       
       {
         "title": "Useful Open Source Tools",
-        "url": "http://172.17.5.42:4000/techpubs/utilities/Tools/",
+        "url": "http://localhost:4000/techpubs/utilities/Tools/",
         "excerpt": "Windows Descriptions Rufus Create bootable USB drives the easy way Linux Descriptions ooooo Create bootable USB drives the easy way...",
         "teaser":
           
@@ -171,7 +171,7 @@ var store = [
       
       {
         "title": "Best Practices for KVM",
-        "url": "http://172.17.5.42:4000/techpubs/lvm/KVM/",
+        "url": "http://localhost:4000/techpubs/kvm/KVM/",
         "excerpt": "KVM Learn about the best practices for Kernel-based Virtual Machine (KVM), including device virtualization for guest operating systems, over-committing processor...",
         "teaser":
           
