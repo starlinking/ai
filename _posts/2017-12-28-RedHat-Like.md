@@ -9,6 +9,35 @@ toc: true
 
 ## File Systems
 
+```bash
+###https://goo.gl/vhW1xD
+/ 
+├── bin   user binaries
+├── boot  boot loader files
+├── dev   device files
+├── etc   configuration files
+├── home  home directories
+├── lib   system libraries
+├── media removable devices
+├── mnt   mount directory
+├── opt   optional add-on apps
+├── proc  process information 
+├── root  home directory of root
+├── run   store runtime information
+├── sbin  system binaries
+├── srv   service data
+├── sys   virtual file system to kernel
+├── tmp   temporary files
+├── usr   user programs
+└── var   variable files
+```
+
+```bash
+###Find the size of a directory
+du -hs tensorflow/
+89M     tensorflow/
+```
+
 ## Package Management
 
 ## System Configuration
