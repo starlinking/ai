@@ -294,7 +294,7 @@
 
 
 
-  3 minute read
+  4 minute read
 </p>
           
         </header>
@@ -354,24 +354,70 @@ NAME=vm1-centos7
 
 virt-install  \ 
 --name \</span><span class="nv">$NAME</span><span class="sh"> \
---ram 4096 \
+--ram 1024 \
 --disk path=/var/lib/libvirt/images/\</span><span class="nv">$NAME</span><span class="sh">.qcow2,size=8 \
---vcpus 4 \
+--vcpus 1 \
 --os-type linux \
 --os-variant centos7.0  \
 --network bridge=virbr0 \
 --graphics none \
 --console pty,target_type=serial \
---location 'http://mirror.i3d.net/pub/centos/7/os/x86_64/' \
---extra-args 'console=ttyS0,115200n8 serial inst.ks=http://a.b.c.d:/ks/VM/ks.cfg' 
+--location 'http://free.nchc.org.tw/centos/7/os/x86_64/' \
+--extra-args 'console=ttyS0,115200n8 serial ks=http://a.b.c.d/ks/VM/centos7-ks.cfg' 
 </span><span class="no">EOF
 
 </span>chmod +x vm-centos7-install.sh <span class="o">&amp;&amp;</span> <span class="nb">sudo</span> ./vm-centos7-install.sh
+
 </code></pre></div></div>
 
 <h3 id="using-virt-install-to-install-a-ubuntu-1604-guest-virtual-machine">Using virt-install to install a Ubuntu 16.04 guest virtual machine</h3>
 
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">###Create an install shell script</span>
+<span class="nb">cat</span> <span class="o">&gt;</span> ./vm-ubuntu1604-install.sh <span class="o">&lt;&lt;</span> <span class="no">EOF</span><span class="sh">
+#Ubuntu 16.04
+NAME=vm1-ubuntu1604
+
+virt-install \
+--name \</span><span class="nv">$NAME</span><span class="sh"> \
+--ram 1024 \
+--disk path=/var/lib/libvirt/images/\</span><span class="nv">$NAME</span><span class="sh">.qcow2,size=8 \
+--vcpus 1 \
+--os-type linux \
+--os-variant ubuntu16.04 \
+--network bridge=virbr0 \
+--graphics none \
+--console pty,target_type=serial \
+--location 'http://free.nchc.org.tw/ubuntu/dists/xenial/main/installer-amd64/' \
+--extra-args 'console=ttyS0,115200n8 serial ks=http://172.17.5.49/ks/VM/ubuntu1604-ks.cfg'
+</span><span class="no">EOF
+
+</span>chmod +x vm-ubuntu1604-install.sh <span class="o">&amp;&amp;</span> <span class="nb">sudo</span> ./vm-ubuntu1604-install.sh
+</code></pre></div></div>
+
 <h3 id="using-virt-install-to-install-a-debian-8-guest-virtual-machine">Using virt-install to install a Debian 8 guest virtual machine</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">###Create an install shell script</span>
+<span class="nb">cat</span> <span class="o">&gt;</span> ./vm-debian8-install.sh <span class="o">&lt;&lt;</span> <span class="no">EOF</span><span class="sh">
+#Debian 8
+NAME=vm1-debian8
+
+virt-install \
+--name \</span><span class="nv">$NAME</span><span class="sh"> \
+--ram 1024 \
+--disk path=/var/lib/libvirt/images/\</span><span class="nv">$NAME</span><span class="sh">.qcow2,size=8 \
+--vcpus 1 \
+--os-type linux \
+--os-variant debian8 \
+--network bridge=virbr0 \
+--graphics none \
+--console pty,target_type=serial \
+--location 'http://free.nchc.org.tw/debian/dists/jessie/main/installer-amd64/' \
+--extra-args 'console=ttyS0,115200n8 serial auto=true hostname=localhost domain=localdomain url=http://a.b.c.d/ks/VM/d8-preseed.cfg'
+</span><span class="no">EOF
+
+</span>chmod +x vm-debian8-install.sh <span class="o">&amp;&amp;</span> <span class="nb">sudo</span> ./vm-debian8-install.sh
+
+</code></pre></div></div>
 
 <h2 id="importing-vms-with-virt-install">Importing VMs with virt-install</h2>
 

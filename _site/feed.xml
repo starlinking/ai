@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-05T22:26:25-05:00</updated><id>http://localhost:4000/</id><title type="html">Human Technology</title><subtitle>An Open and Sharing Site!</subtitle><author><name>AIMLDL</name></author><entry><title type="html">Best Practices for KVM</title><link href="http://localhost:4000/techpubs/kvm/KVM/" rel="alternate" type="text/html" title="Best Practices for KVM" /><published>2018-02-05T00:00:00-05:00</published><updated>2018-02-05T00:00:00-05:00</updated><id>http://localhost:4000/techpubs/kvm/KVM</id><content type="html" xml:base="http://localhost:4000/techpubs/kvm/KVM/">&lt;h1 id=&quot;kvm&quot;&gt;KVM&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-07T02:13:17-05:00</updated><id>http://localhost:4000/</id><title type="html">Human Technology</title><subtitle>An Open and Sharing Site!</subtitle><author><name>AIMLDL</name></author><entry><title type="html">Best Practices for KVM</title><link href="http://localhost:4000/techpubs/kvm/KVM/" rel="alternate" type="text/html" title="Best Practices for KVM" /><published>2018-02-05T00:00:00-05:00</published><updated>2018-02-05T00:00:00-05:00</updated><id>http://localhost:4000/techpubs/kvm/KVM</id><content type="html" xml:base="http://localhost:4000/techpubs/kvm/KVM/">&lt;h1 id=&quot;kvm&quot;&gt;KVM&lt;/h1&gt;
 
 &lt;p&gt;Learn about the best practices for Kernel-based Virtual Machine (KVM), including device virtualization
 for guest operating systems, over-committing processor and memory resources, &lt;em&gt;networking&lt;/em&gt;, and &lt;em&gt;PCIe passthrough&lt;/em&gt; performance.&lt;/p&gt;
@@ -26,24 +26,70 @@ NAME=vm1-centos7
 
 virt-install  \ 
 --name \&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$NAME&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt; \
---ram 4096 \
+--ram 1024 \
 --disk path=/var/lib/libvirt/images/\&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$NAME&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;.qcow2,size=8 \
---vcpus 4 \
+--vcpus 1 \
 --os-type linux \
 --os-variant centos7.0  \
 --network bridge=virbr0 \
 --graphics none \
 --console pty,target_type=serial \
---location 'http://mirror.i3d.net/pub/centos/7/os/x86_64/' \
---extra-args 'console=ttyS0,115200n8 serial inst.ks=http://a.b.c.d:/ks/VM/ks.cfg' 
+--location 'http://free.nchc.org.tw/centos/7/os/x86_64/' \
+--extra-args 'console=ttyS0,115200n8 serial ks=http://a.b.c.d/ks/VM/centos7-ks.cfg' 
 &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;EOF
 
 &lt;/span&gt;chmod +x vm-centos7-install.sh &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt; ./vm-centos7-install.sh
+
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;using-virt-install-to-install-a-ubuntu-1604-guest-virtual-machine&quot;&gt;Using virt-install to install a Ubuntu 16.04 guest virtual machine&lt;/h3&gt;
 
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;###Create an install shell script&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;cat&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; ./vm-ubuntu1604-install.sh &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;EOF&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;
+#Ubuntu 16.04
+NAME=vm1-ubuntu1604
+
+virt-install \
+--name \&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$NAME&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt; \
+--ram 1024 \
+--disk path=/var/lib/libvirt/images/\&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$NAME&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;.qcow2,size=8 \
+--vcpus 1 \
+--os-type linux \
+--os-variant ubuntu16.04 \
+--network bridge=virbr0 \
+--graphics none \
+--console pty,target_type=serial \
+--location 'http://free.nchc.org.tw/ubuntu/dists/xenial/main/installer-amd64/' \
+--extra-args 'console=ttyS0,115200n8 serial ks=http://172.17.5.49/ks/VM/ubuntu1604-ks.cfg'
+&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;EOF
+
+&lt;/span&gt;chmod +x vm-ubuntu1604-install.sh &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt; ./vm-ubuntu1604-install.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;h3 id=&quot;using-virt-install-to-install-a-debian-8-guest-virtual-machine&quot;&gt;Using virt-install to install a Debian 8 guest virtual machine&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;###Create an install shell script&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;cat&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; ./vm-debian8-install.sh &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;EOF&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;
+#Debian 8
+NAME=vm1-debian8
+
+virt-install \
+--name \&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$NAME&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt; \
+--ram 1024 \
+--disk path=/var/lib/libvirt/images/\&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$NAME&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;.qcow2,size=8 \
+--vcpus 1 \
+--os-type linux \
+--os-variant debian8 \
+--network bridge=virbr0 \
+--graphics none \
+--console pty,target_type=serial \
+--location 'http://free.nchc.org.tw/debian/dists/jessie/main/installer-amd64/' \
+--extra-args 'console=ttyS0,115200n8 serial auto=true hostname=localhost domain=localdomain url=http://a.b.c.d/ks/VM/d8-preseed.cfg'
+&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;EOF
+
+&lt;/span&gt;chmod +x vm-debian8-install.sh &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt; ./vm-debian8-install.sh
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;importing-vms-with-virt-install&quot;&gt;Importing VMs with virt-install&lt;/h2&gt;
 
