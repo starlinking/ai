@@ -43,4 +43,9 @@ var store = [{
         "excerpt":"PrerequisitesIn general, it would be very helpful to speed up your exploration if you have good bases at programming experience, basic linear algebra, statistics and probability to start learning ML.Programming ExperienceMachine learning and data analysis are fundamentally iterative processes, in which the data drive the analysis. It is essential for...","categories": ["ML"],
         "tags": ["ML","Programming","Linear Algebra","Statistics","Probability"],
         "url": "http://172.17.5.42:4000/techpubs/ml/Prerequisites4ML/",
+        "teaser":null},{
+        "title": "Quick Connect for Serial and SSH",
+        "excerpt":"To create a simple bash script with a select menu for quick connect serial devices and SSH Over the NET.####!/bin/bash#Quick Connect for Serial and SSH#Arthur: Star Changecho -e \"********************\\n\"echo -e \"1). Blade#1 Console \\n\"echo -e \"2). Blade#2 Console \\n\"echo -e \"3). Blade#3 Console \\n\"echo -e \"4). Blade#4 Console \\n\"echo -e...","categories": ["Shell Scripting"],
+        "tags": ["Bash","Programming","Linux"],
+        "url": "http://172.17.5.42:4000/techpubs/shell%20scripting/QConnect/",
         "teaser":null}]

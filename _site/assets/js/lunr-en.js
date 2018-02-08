@@ -91,6 +91,15 @@ var idx = lunr(function () {
     });
     
   
+    idx.add({
+      title: "Quick Connect for Serial and SSH",
+      excerpt: "To create a simple bash script with a select menu for quick connect serial devices and SSH Over the NET....",
+      categories: ["Shell Scripting"],
+      tags: ["Bash","Programming","Linux"],
+      id: 9
+    });
+    
+  
 
 
 console.log( jQuery.type(idx) );
@@ -193,6 +202,17 @@ var store = [
         "title": "Prerequisites to start Machine Learning",
         "url": "http://172.17.5.42:4000/techpubs/ml/Prerequisites4ML/",
         "excerpt": "Prerequisites In general, it would be very helpful to speed up your exploration if you have good bases at programming...",
+        "teaser":
+          
+            null
+          
+      },
+    
+      
+      {
+        "title": "Quick Connect for Serial and SSH",
+        "url": "http://172.17.5.42:4000/techpubs/shell%20scripting/QConnect/",
+        "excerpt": "To create a simple bash script with a select menu for quick connect serial devices and SSH Over the NET....",
         "teaser":
           
             null

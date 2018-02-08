@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://172.17.5.42:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://172.17.5.42:4000/" rel="alternate" type="text/html" /><updated>2018-02-08T02:23:38-05:00</updated><id>http://172.17.5.42:4000/</id><title type="html">Human Technology</title><subtitle>An Open and Sharing Site!</subtitle><author><name>AIMLDL</name></author><entry><title type="html">Prerequisites to start Machine Learning</title><link href="http://172.17.5.42:4000/techpubs/ml/Prerequisites4ML/" rel="alternate" type="text/html" title="Prerequisites to start Machine Learning" /><published>2018-02-07T00:00:00-05:00</published><updated>2018-02-07T00:00:00-05:00</updated><id>http://172.17.5.42:4000/techpubs/ml/Prerequisites4ML</id><content type="html" xml:base="http://172.17.5.42:4000/techpubs/ml/Prerequisites4ML/">&lt;h1 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://172.17.5.42:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://172.17.5.42:4000/" rel="alternate" type="text/html" /><updated>2018-02-08T04:26:55-05:00</updated><id>http://172.17.5.42:4000/</id><title type="html">Human Technology</title><subtitle>An Open and Sharing Site!</subtitle><author><name>AIMLDL</name></author><entry><title type="html">Quick Connect for Serial and SSH</title><link href="http://172.17.5.42:4000/techpubs/shell%20scripting/QConnect/" rel="alternate" type="text/html" title="Quick Connect for Serial and SSH" /><published>2018-02-07T00:00:00-05:00</published><updated>2018-02-07T00:00:00-05:00</updated><id>http://172.17.5.42:4000/techpubs/shell%20scripting/QConnect</id><content type="html" xml:base="http://172.17.5.42:4000/techpubs/shell%20scripting/QConnect/">&lt;p&gt;To create a simple bash script with a select menu for quick connect serial devices and SSH Over the NET.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;###&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#Quick Connect for Serial and SSH&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#Arthur: Star Chang&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;********************&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;1). Blade#1 Console &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;2). Blade#2 Console &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;3). Blade#3 Console &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;4). Blade#4 Console &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;5). Blade#5 SSH     &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;6). Blade#6 SSH     &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;7). Blade#7 SSH     &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;8). Blade#8 SSH     &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;********************&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Please select preferred connection:&quot;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;while &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do
+  &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;read &lt;/span&gt;n
+  &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$n&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in
+    &lt;/span&gt;1&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo kill&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-9&lt;/span&gt; 0 &lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;lsof &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; /dev/ttyUSB0&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;
+       cu &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt; /dev/ttyUSB0 &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt; 115200
+       &lt;span class=&quot;nb&quot;&gt;break&lt;/span&gt;
+       &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+    2&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo kill&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-9&lt;/span&gt; 0 &lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;lsof &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; /dev/ttyUSB1&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;
+       cu &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt; /dev/ttyUSB1 &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt; 115200
+       &lt;span class=&quot;nb&quot;&gt;break&lt;/span&gt;
+       &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+    3&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo kill&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-9&lt;/span&gt; 0 &lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;lsof &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; /dev/ttyUSB2&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;
+       cu &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt; /dev/ttyUSB2 &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt; 115200
+       &lt;span class=&quot;nb&quot;&gt;break&lt;/span&gt;
+       &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+    4&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo kill&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-9&lt;/span&gt; 0 &lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;lsof &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; /dev/ttyUSB3&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;
+       cu &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt; /dev/ttyUSB3 &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt; 115200
+       &lt;span class=&quot;nb&quot;&gt;break&lt;/span&gt;
+       &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+    5&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; ssh stack@10.10.215.10 &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; 22
+       &lt;span class=&quot;nb&quot;&gt;break&lt;/span&gt;
+       &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+    6&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; ssh stack@10.10.215.20 &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; 22
+       &lt;span class=&quot;nb&quot;&gt;break&lt;/span&gt;
+       &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+    7&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; ssh stack@10.10.215.30 &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; 22
+       &lt;span class=&quot;nb&quot;&gt;break&lt;/span&gt;
+       &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+    8&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; ssh stack@10.10.215.40 &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; 22
+       &lt;span class=&quot;nb&quot;&gt;break&lt;/span&gt;
+       &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;invalid connection, select again &amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;esac&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;done&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;ProTip:&lt;/strong&gt; Sometimes serial port is stuck from last time connection. So kill dead process before new serial connection.&lt;/p&gt;</content><author><name>AIMLDL</name></author><category term="Bash" /><category term="Programming" /><category term="Linux" /><summary type="html">To create a simple bash script with a select menu for quick connect serial devices and SSH Over the NET.</summary></entry><entry><title type="html">Prerequisites to start Machine Learning</title><link href="http://172.17.5.42:4000/techpubs/ml/Prerequisites4ML/" rel="alternate" type="text/html" title="Prerequisites to start Machine Learning" /><published>2018-02-07T00:00:00-05:00</published><updated>2018-02-07T00:00:00-05:00</updated><id>http://172.17.5.42:4000/techpubs/ml/Prerequisites4ML</id><content type="html" xml:base="http://172.17.5.42:4000/techpubs/ml/Prerequisites4ML/">&lt;h1 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h1&gt;
 
 &lt;p&gt;In general, it would be very helpful to speed up your exploration if you have good bases at programming experience, basic linear algebra, statistics and probability to start learning ML.&lt;/p&gt;
 
