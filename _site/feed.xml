@@ -1,10 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://172.17.5.42:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://172.17.5.42:4000/" rel="alternate" type="text/html" /><updated>2018-02-08T01:22:14-05:00</updated><id>http://172.17.5.42:4000/</id><title type="html">Human Technology</title><subtitle>An Open and Sharing Site!</subtitle><author><name>AIMLDL</name></author><entry><title type="html">Prerequisites to start Machine Learning</title><link href="http://172.17.5.42:4000/techpubs/ml/Prerequisites4ML/" rel="alternate" type="text/html" title="Prerequisites to start Machine Learning" /><published>2018-02-07T00:00:00-05:00</published><updated>2018-02-07T00:00:00-05:00</updated><id>http://172.17.5.42:4000/techpubs/ml/Prerequisites4ML</id><content type="html" xml:base="http://172.17.5.42:4000/techpubs/ml/Prerequisites4ML/">&lt;h1 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://172.17.5.42:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://172.17.5.42:4000/" rel="alternate" type="text/html" /><updated>2018-02-08T02:23:38-05:00</updated><id>http://172.17.5.42:4000/</id><title type="html">Human Technology</title><subtitle>An Open and Sharing Site!</subtitle><author><name>AIMLDL</name></author><entry><title type="html">Prerequisites to start Machine Learning</title><link href="http://172.17.5.42:4000/techpubs/ml/Prerequisites4ML/" rel="alternate" type="text/html" title="Prerequisites to start Machine Learning" /><published>2018-02-07T00:00:00-05:00</published><updated>2018-02-07T00:00:00-05:00</updated><id>http://172.17.5.42:4000/techpubs/ml/Prerequisites4ML</id><content type="html" xml:base="http://172.17.5.42:4000/techpubs/ml/Prerequisites4ML/">&lt;h1 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h1&gt;
 
 &lt;p&gt;In general, it would be very helpful to speed up your exploration if you have good bases at programming experience, basic linear algebra, statistics and probability to start learning ML.&lt;/p&gt;
 
 &lt;h2 id=&quot;programming-experience&quot;&gt;Programming Experience&lt;/h2&gt;
 
-&lt;p&gt;Learning Python is very easy and should not take more than two months to get through with the basics.&lt;/p&gt;
+&lt;p&gt;Machine learning and data analysis are fundamentally iterative processes, in which the data drive the analysis. It is essential for these process to have programs and tools that allow quick iteration and easy interaction.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-python&quot;&gt;Why Python?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Learning curve to get through Python with the basics &amp;lt; 2 months&lt;/li&gt;
+  &lt;li&gt;Using Python is the ability to interact directly with the code.&lt;/li&gt;
+  &lt;li&gt;Python has libraries for data loading, visualization, statistics, natural language processing, image processing, and more.&lt;/li&gt;
+  &lt;li&gt;It allows for the creation of complex graphical user interfaces (GUIs) and web services, and for integration into existing systems.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;###&lt;/span&gt;
 

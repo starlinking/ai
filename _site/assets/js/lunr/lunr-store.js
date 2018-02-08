@@ -40,7 +40,7 @@ var store = [{
         "url": "http://172.17.5.42:4000/techpubs/kvm/KVM/",
         "teaser":null},{
         "title": "Prerequisites to start Machine Learning",
-        "excerpt":"PrerequisitesIn general, it would be very helpful to speed up your exploration if you have good bases at programming experience, basic linear algebra, statistics and probability to start learning ML.Programming ExperienceLearning Python is very easy and should not take more than two months to get through with the basics.###Math BackgroundHaving...","categories": ["ML"],
+        "excerpt":"PrerequisitesIn general, it would be very helpful to speed up your exploration if you have good bases at programming experience, basic linear algebra, statistics and probability to start learning ML.Programming ExperienceMachine learning and data analysis are fundamentally iterative processes, in which the data drive the analysis. It is essential for...","categories": ["ML"],
         "tags": ["ML","Programming","Linear Algebra","Statistics","Probability"],
         "url": "http://172.17.5.42:4000/techpubs/ml/Prerequisites4ML/",
         "teaser":null}]
