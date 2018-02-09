@@ -354,9 +354,9 @@ NAME=vm1-centos7
 
 virt-install  \ 
 --name \</span><span class="nv">$NAME</span><span class="sh"> \
---ram 1024 \
---disk path=/var/lib/libvirt/images/\</span><span class="nv">$NAME</span><span class="sh">.qcow2,size=8 \
 --vcpus 1 \
+--memory 1024 \
+--disk path=/var/lib/libvirt/images/\</span><span class="nv">$NAME</span><span class="sh">.qcow2,size=8 \
 --os-type linux \
 --os-variant centos7.0  \
 --network bridge=virbr0 \
@@ -379,9 +379,9 @@ NAME=vm1-ubuntu1604
 
 virt-install \
 --name \</span><span class="nv">$NAME</span><span class="sh"> \
---ram 1024 \
---disk path=/var/lib/libvirt/images/\</span><span class="nv">$NAME</span><span class="sh">.qcow2,size=8 \
 --vcpus 1 \
+--memory 1024 \
+--disk path=/var/lib/libvirt/images/\</span><span class="nv">$NAME</span><span class="sh">.qcow2,size=8 \
 --os-type linux \
 --os-variant ubuntu16.04 \
 --network bridge=virbr0 \
@@ -403,9 +403,9 @@ NAME=vm1-debian8
 
 virt-install \
 --name \</span><span class="nv">$NAME</span><span class="sh"> \
---ram 1024 \
---disk path=/var/lib/libvirt/images/\</span><span class="nv">$NAME</span><span class="sh">.qcow2,size=8 \
 --vcpus 1 \
+--memory 1024 \
+--disk path=/var/lib/libvirt/images/\</span><span class="nv">$NAME</span><span class="sh">.qcow2,size=8 \
 --os-type linux \
 --os-variant debian8 \
 --network bridge=virbr0 \
@@ -420,6 +420,25 @@ virt-install \
 </code></pre></div></div>
 
 <h2 id="importing-vms-with-virt-install">Importing VMs with virt-install</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">###Create an import shell script for an existing image disk </span>
+<span class="nb">cat</span> <span class="o">&gt;</span> ./vm-debian8-import.sh <span class="o">&lt;&lt;</span> <span class="no">EOF</span><span class="sh">
+#Debian 8
+NAME=vm1-debian8
+
+virt-install \
+--name \</span><span class="nv">$NAME</span><span class="sh"> \
+--vcpus 1 \
+--memory 1024 \
+--disk path=/var/lib/libvirt/images/\</span><span class="nv">$NAME</span><span class="sh">.qcow2 \
+--graphics none \
+--console pty \
+--import
+</span><span class="no">EOF
+
+</span>chmod +x vm-debian8-import.sh <span class="o">&amp;&amp;</span> <span class="nb">sudo</span> ./vm-debian8-import.sh
+
+</code></pre></div></div>
 
 <h2 id="sr-iov-and-pci-passthrough">SR-IOV and PCI Passthrough</h2>
 

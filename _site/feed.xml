@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://172.17.5.42:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://172.17.5.42:4000/" rel="alternate" type="text/html" /><updated>2018-02-08T21:09:36-05:00</updated><id>http://172.17.5.42:4000/</id><title type="html">Human Technology</title><subtitle>An Open and Sharing Site!</subtitle><author><name>AIMLDL</name></author><entry><title type="html">Quick Connect for Serial and SSH</title><link href="http://172.17.5.42:4000/techpubs/code/QConnect/" rel="alternate" type="text/html" title="Quick Connect for Serial and SSH" /><published>2018-02-07T00:00:00-05:00</published><updated>2018-02-07T00:00:00-05:00</updated><id>http://172.17.5.42:4000/techpubs/code/QConnect</id><content type="html" xml:base="http://172.17.5.42:4000/techpubs/code/QConnect/">&lt;p&gt;To create a simple select menu for quick connect serial devices and SSH Over the NET.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://172.17.5.42:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://172.17.5.42:4000/" rel="alternate" type="text/html" /><updated>2018-02-08T21:59:02-05:00</updated><id>http://172.17.5.42:4000/</id><title type="html">Human Technology</title><subtitle>An Open and Sharing Site!</subtitle><author><name>AIMLDL</name></author><entry><title type="html">Quick Connect for Serial and SSH</title><link href="http://172.17.5.42:4000/techpubs/code/QConnect/" rel="alternate" type="text/html" title="Quick Connect for Serial and SSH" /><published>2018-02-07T00:00:00-05:00</published><updated>2018-02-07T00:00:00-05:00</updated><id>http://172.17.5.42:4000/techpubs/code/QConnect</id><content type="html" xml:base="http://172.17.5.42:4000/techpubs/code/QConnect/">&lt;p&gt;To create a simple select menu for quick connect serial devices and SSH Over the NET.&lt;/p&gt;
 
 &lt;h2 id=&quot;bash-shell-scripting&quot;&gt;Bash Shell Scripting&lt;/h2&gt;
 
@@ -172,9 +172,9 @@ NAME=vm1-centos7
 
 virt-install  \ 
 --name \&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$NAME&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt; \
---ram 1024 \
---disk path=/var/lib/libvirt/images/\&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$NAME&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;.qcow2,size=8 \
 --vcpus 1 \
+--memory 1024 \
+--disk path=/var/lib/libvirt/images/\&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$NAME&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;.qcow2,size=8 \
 --os-type linux \
 --os-variant centos7.0  \
 --network bridge=virbr0 \
@@ -197,9 +197,9 @@ NAME=vm1-ubuntu1604
 
 virt-install \
 --name \&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$NAME&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt; \
---ram 1024 \
---disk path=/var/lib/libvirt/images/\&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$NAME&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;.qcow2,size=8 \
 --vcpus 1 \
+--memory 1024 \
+--disk path=/var/lib/libvirt/images/\&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$NAME&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;.qcow2,size=8 \
 --os-type linux \
 --os-variant ubuntu16.04 \
 --network bridge=virbr0 \
@@ -221,9 +221,9 @@ NAME=vm1-debian8
 
 virt-install \
 --name \&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$NAME&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt; \
---ram 1024 \
---disk path=/var/lib/libvirt/images/\&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$NAME&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;.qcow2,size=8 \
 --vcpus 1 \
+--memory 1024 \
+--disk path=/var/lib/libvirt/images/\&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$NAME&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;.qcow2,size=8 \
 --os-type linux \
 --os-variant debian8 \
 --network bridge=virbr0 \
@@ -238,6 +238,25 @@ virt-install \
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;importing-vms-with-virt-install&quot;&gt;Importing VMs with virt-install&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;###Create an import shell script for an existing image disk &lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;cat&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; ./vm-debian8-import.sh &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;EOF&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;
+#Debian 8
+NAME=vm1-debian8
+
+virt-install \
+--name \&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$NAME&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt; \
+--vcpus 1 \
+--memory 1024 \
+--disk path=/var/lib/libvirt/images/\&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$NAME&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;.qcow2 \
+--graphics none \
+--console pty \
+--import
+&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;EOF
+
+&lt;/span&gt;chmod +x vm-debian8-import.sh &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt; ./vm-debian8-import.sh
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;sr-iov-and-pci-passthrough&quot;&gt;SR-IOV and PCI Passthrough&lt;/h2&gt;
 
