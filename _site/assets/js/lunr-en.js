@@ -93,9 +93,9 @@ var idx = lunr(function () {
   
     idx.add({
       title: "Quick Connect for Serial and SSH",
-      excerpt: "To create a simple bash script with a select menu for quick connect serial devices and SSH Over the NET....",
-      categories: ["Shell Scripting"],
-      tags: ["Bash","Programming","Linux"],
+      excerpt: "To create a simple select menu for quick connect serial devices and SSH Over the NET. Bash Shell Scripting ###...",
+      categories: ["Code"],
+      tags: ["Programming","Bash","Python"],
       id: 9
     });
     
@@ -211,8 +211,8 @@ var store = [
       
       {
         "title": "Quick Connect for Serial and SSH",
-        "url": "http://172.17.5.42:4000/techpubs/shell%20scripting/QConnect/",
-        "excerpt": "To create a simple bash script with a select menu for quick connect serial devices and SSH Over the NET....",
+        "url": "http://172.17.5.42:4000/techpubs/code/QConnect/",
+        "excerpt": "To create a simple select menu for quick connect serial devices and SSH Over the NET. Bash Shell Scripting ###...",
         "teaser":
           
             null
