@@ -9,7 +9,8 @@ toc: true
 
 * [Learning from Data](https://www.amazon.com/Learning-Data-Yaser-S-Abu-Mostafa-ebook/dp/B0759M2D9H/ref=sr_1_1?ie=UTF8&qid=1514272795&sr=8-1&keywords=learning+from+data+yaser){:target="_blank"}
 * [Introduction to Machine Learning with Python](https://www.amazon.com/Introduction-Machine-Learning-Python-Scientists/dp/1449369413/ref=sr_1_1?s=books&ie=UTF8&qid=1514190854&sr=1-1&keywords=Introduction+to+Machine+Learning+with+Python){:target="_blank"}
-* [Deep Learning](https://www.amazon.com/Deep-Learning-Practitioners-Josh-Patterson/dp/1491914254/ref=sr_1_1?s=books&ie=UTF8&qid=1514190702&sr=1-1&keywords=deep+learning+A+Practitioner+Approach){:target="_blank"}
+* [Deep Learning - MIT Press](http://www.deeplearningbook.org/){:target="_blank"}
+* [Deep Learning - "O'Reilly"](https://www.amazon.com/Deep-Learning-Practitioners-Josh-Patterson/dp/1491914254/ref=sr_1_1?s=books&ie=UTF8&qid=1514190702&sr=1-1&keywords=deep+learning+A+Practitioner+Approach){:target="_blank"}
 * [Hands On Machine Learning with Scikit Learn and TensorFlow](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1491962291/ref=sr_1_2?s=books&ie=UTF8&qid=1514190749&sr=1-2&keywords=Hands+On+Machine+Learning+with+Scikit){:target="_blank"}
 	* [Errata](http://www.oreilly.com/catalog/errata.csp?isbn=9781491962299){:target="_blank"}
 * [Thoughtful Machine Learning](https://www.amazon.com/Thoughtful-Machine-Learning-Test-Driven-Approach/dp/1449374069/ref=sr_1_1?s=books&ie=UTF8&qid=1514190783&sr=1-1&keywords=Thoughtful+Machine+Learning){:target="_blank"}
@@ -19,9 +20,10 @@ toc: true
 
 ## Blog / Website
 
+* [Distill - Clear explanations of machine learning](https://distill.pub/){:target="_blank"} 
+* [Machine Learning Mastery](https://machinelearningmastery.com/blog/){:target="_blank"}
 * [Synced - AI Technology and Industry](https://syncedreview.com/){:target="_blank"}
 * [Towards Data Science](https://towardsdatascience.com/){:target="_blank"}
-* [Machine Learning Mastery](https://machinelearningmastery.com/blog/){:target="_blank"}
 * [机器之心](https://www.jiqizhixin.com/){:target="_blank"}
 
 ## Coursera
