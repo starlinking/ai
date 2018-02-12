@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-09T02:46:40-05:00</updated><id>http://localhost:4000/</id><title type="html">Human Technology</title><subtitle>An Open and Sharing Site!</subtitle><author><name>AIMLDL</name></author><entry><title type="html">Quick Connect for Serial and SSH</title><link href="http://localhost:4000/techpubs/code/QConnect/" rel="alternate" type="text/html" title="Quick Connect for Serial and SSH" /><published>2018-02-07T00:00:00-05:00</published><updated>2018-02-07T00:00:00-05:00</updated><id>http://localhost:4000/techpubs/code/QConnect</id><content type="html" xml:base="http://localhost:4000/techpubs/code/QConnect/">&lt;p&gt;To create a simple select menu for quick connect serial devices and SSH Over the NET.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://172.17.5.42:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://172.17.5.42:4000/" rel="alternate" type="text/html" /><updated>2018-02-12T03:30:11-05:00</updated><id>http://172.17.5.42:4000/</id><title type="html">Human Technology</title><subtitle>An Open and Sharing Site!</subtitle><author><name>AIMLDL</name></author><entry><title type="html">Quick Connect for Serial and SSH</title><link href="http://172.17.5.42:4000/techpubs/code/QConnect/" rel="alternate" type="text/html" title="Quick Connect for Serial and SSH" /><published>2018-02-07T00:00:00-05:00</published><updated>2018-02-07T00:00:00-05:00</updated><id>http://172.17.5.42:4000/techpubs/code/QConnect</id><content type="html" xml:base="http://172.17.5.42:4000/techpubs/code/QConnect/">&lt;p&gt;To create a simple select menu for quick connect serial devices and SSH Over the NET.&lt;/p&gt;
 
 &lt;h2 id=&quot;bash-shell-scripting&quot;&gt;Bash Shell Scripting&lt;/h2&gt;
 
@@ -99,7 +99,7 @@
         &lt;span class=&quot;c&quot;&gt;# Any integer inputs other than values 1-5 we print an error message&lt;/span&gt;
         &lt;span class=&quot;nb&quot;&gt;raw_input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Wrong option selection. Enter any key to try again..&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AIMLDL</name></author><category term="Programming" /><category term="Bash" /><category term="Python" /><summary type="html">To create a simple select menu for quick connect serial devices and SSH Over the NET.</summary></entry><entry><title type="html">Prerequisites to start Machine Learning</title><link href="http://localhost:4000/techpubs/ml/Prerequisites4ML/" rel="alternate" type="text/html" title="Prerequisites to start Machine Learning" /><published>2018-02-07T00:00:00-05:00</published><updated>2018-02-07T00:00:00-05:00</updated><id>http://localhost:4000/techpubs/ml/Prerequisites4ML</id><content type="html" xml:base="http://localhost:4000/techpubs/ml/Prerequisites4ML/">&lt;h1 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>AIMLDL</name></author><category term="Programming" /><category term="Bash" /><category term="Python" /><summary type="html">To create a simple select menu for quick connect serial devices and SSH Over the NET.</summary></entry><entry><title type="html">Prerequisites to start Machine Learning</title><link href="http://172.17.5.42:4000/techpubs/ml/Prerequisites4ML/" rel="alternate" type="text/html" title="Prerequisites to start Machine Learning" /><published>2018-02-07T00:00:00-05:00</published><updated>2018-02-07T00:00:00-05:00</updated><id>http://172.17.5.42:4000/techpubs/ml/Prerequisites4ML</id><content type="html" xml:base="http://172.17.5.42:4000/techpubs/ml/Prerequisites4ML/">&lt;h1 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h1&gt;
 
 &lt;p&gt;In general, it would be very helpful to speed up your exploration if you have good bases at programming experience, basic linear algebra, statistics and probability to start learning ML.&lt;/p&gt;
 
@@ -144,7 +144,7 @@
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p class=&quot;notice--info&quot;&gt;ProTip:** This is ProTip!&lt;/p&gt;</content><author><name>AIMLDL</name></author><category term="ML" /><category term="Programming" /><category term="Linear Algebra" /><category term="Statistics" /><category term="Probability" /><summary type="html">Prerequisites</summary></entry><entry><title type="html">Best Practices for KVM</title><link href="http://localhost:4000/techpubs/kvm/KVM/" rel="alternate" type="text/html" title="Best Practices for KVM" /><published>2018-02-05T00:00:00-05:00</published><updated>2018-02-05T00:00:00-05:00</updated><id>http://localhost:4000/techpubs/kvm/KVM</id><content type="html" xml:base="http://localhost:4000/techpubs/kvm/KVM/">&lt;h1 id=&quot;kvm&quot;&gt;KVM&lt;/h1&gt;
+&lt;p class=&quot;notice--info&quot;&gt;ProTip:** This is ProTip!&lt;/p&gt;</content><author><name>AIMLDL</name></author><category term="ML" /><category term="Programming" /><category term="Linear Algebra" /><category term="Statistics" /><category term="Probability" /><summary type="html">Prerequisites</summary></entry><entry><title type="html">Best Practices for KVM</title><link href="http://172.17.5.42:4000/techpubs/kvm/KVM/" rel="alternate" type="text/html" title="Best Practices for KVM" /><published>2018-02-05T00:00:00-05:00</published><updated>2018-02-05T00:00:00-05:00</updated><id>http://172.17.5.42:4000/techpubs/kvm/KVM</id><content type="html" xml:base="http://172.17.5.42:4000/techpubs/kvm/KVM/">&lt;h1 id=&quot;kvm&quot;&gt;KVM&lt;/h1&gt;
 
 &lt;p&gt;Learn about the best practices for Kernel-based Virtual Machine (KVM), including device virtualization
 for guest operating systems, over-committing processor and memory resources, &lt;em&gt;networking&lt;/em&gt;, and &lt;em&gt;PCIe passthrough&lt;/em&gt; performance.&lt;/p&gt;
@@ -263,6 +263,109 @@ virt-install \
 &lt;p&gt;SR-IOV is a virtualization technology that is beneficial for workloads with very high packet rates or very low latency requirements. When using SR-IOV, multiple guest machines can simultaneously and directly access the hardware device on the hypervisor host.&lt;/p&gt;
 
 &lt;p&gt;PCI Passthrough enables exclusive direct access to a physical network card. When compared to SR-IOV, only small performance increases can be gained by using PCI Passthrough.&lt;/p&gt;
+
+&lt;h3 id=&quot;validate-host-virtualization-setup&quot;&gt;Validate host virtualization setup&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;stack@localhost ~]&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;virt-host-validate
+  QEMU: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;hardware virtualization                                 : PASS
+  QEMU: Checking &lt;span class=&quot;k&quot;&gt;if &lt;/span&gt;device /dev/kvm exists                                   : PASS
+  QEMU: Checking &lt;span class=&quot;k&quot;&gt;if &lt;/span&gt;device /dev/kvm is accessible                            : PASS
+  QEMU: Checking &lt;span class=&quot;k&quot;&gt;if &lt;/span&gt;device /dev/vhost-net exists                             : PASS
+  QEMU: Checking &lt;span class=&quot;k&quot;&gt;if &lt;/span&gt;device /dev/net/tun exists                               : PASS
+  QEMU: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;cgroup &lt;span class=&quot;s1&quot;&gt;'memory'&lt;/span&gt; controller support                      : PASS
+  QEMU: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;cgroup &lt;span class=&quot;s1&quot;&gt;'memory'&lt;/span&gt; controller mount-point                  : PASS
+  QEMU: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;cgroup &lt;span class=&quot;s1&quot;&gt;'cpu'&lt;/span&gt; controller support                         : PASS
+  QEMU: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;cgroup &lt;span class=&quot;s1&quot;&gt;'cpu'&lt;/span&gt; controller mount-point                     : PASS
+  QEMU: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;cgroup &lt;span class=&quot;s1&quot;&gt;'cpuacct'&lt;/span&gt; controller support                     : PASS
+  QEMU: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;cgroup &lt;span class=&quot;s1&quot;&gt;'cpuacct'&lt;/span&gt; controller mount-point                 : PASS
+  QEMU: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;cgroup &lt;span class=&quot;s1&quot;&gt;'cpuset'&lt;/span&gt; controller support                      : PASS
+  QEMU: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;cgroup &lt;span class=&quot;s1&quot;&gt;'cpuset'&lt;/span&gt; controller mount-point                  : PASS
+  QEMU: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;cgroup &lt;span class=&quot;s1&quot;&gt;'devices'&lt;/span&gt; controller support                     : PASS
+  QEMU: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;cgroup &lt;span class=&quot;s1&quot;&gt;'devices'&lt;/span&gt; controller mount-point                 : PASS
+  QEMU: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;cgroup &lt;span class=&quot;s1&quot;&gt;'blkio'&lt;/span&gt; controller support                       : PASS
+  QEMU: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;cgroup &lt;span class=&quot;s1&quot;&gt;'blkio'&lt;/span&gt; controller mount-point                   : PASS
+  QEMU: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;device assignment IOMMU support                         : PASS
+  QEMU: Checking &lt;span class=&quot;k&quot;&gt;if &lt;/span&gt;IOMMU is enabled by kernel                               : WARN &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;IOMMU appears to be disabled &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;kernel. Add &lt;span class=&quot;nv&quot;&gt;intel_iommu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;on to kernel cmdline arguments&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+   LXC: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;Linux &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; 2.6.26                                         : PASS
+   LXC: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;namespace ipc                                           : PASS
+   LXC: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;namespace mnt                                           : PASS
+   LXC: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;namespace pid                                           : PASS
+   LXC: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;namespace uts                                           : PASS
+   LXC: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;namespace net                                           : PASS
+   LXC: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;namespace user                                          : PASS
+   LXC: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;cgroup &lt;span class=&quot;s1&quot;&gt;'memory'&lt;/span&gt; controller support                      : PASS
+   LXC: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;cgroup &lt;span class=&quot;s1&quot;&gt;'memory'&lt;/span&gt; controller mount-point                  : PASS
+   LXC: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;cgroup &lt;span class=&quot;s1&quot;&gt;'cpu'&lt;/span&gt; controller support                         : PASS
+   LXC: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;cgroup &lt;span class=&quot;s1&quot;&gt;'cpu'&lt;/span&gt; controller mount-point                     : PASS
+   LXC: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;cgroup &lt;span class=&quot;s1&quot;&gt;'cpuacct'&lt;/span&gt; controller support                     : PASS
+   LXC: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;cgroup &lt;span class=&quot;s1&quot;&gt;'cpuacct'&lt;/span&gt; controller mount-point                 : PASS
+   LXC: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;cgroup &lt;span class=&quot;s1&quot;&gt;'cpuset'&lt;/span&gt; controller support                      : PASS
+   LXC: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;cgroup &lt;span class=&quot;s1&quot;&gt;'cpuset'&lt;/span&gt; controller mount-point                  : PASS
+   LXC: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;cgroup &lt;span class=&quot;s1&quot;&gt;'devices'&lt;/span&gt; controller support                     : PASS
+   LXC: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;cgroup &lt;span class=&quot;s1&quot;&gt;'devices'&lt;/span&gt; controller mount-point                 : PASS
+   LXC: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;cgroup &lt;span class=&quot;s1&quot;&gt;'blkio'&lt;/span&gt; controller support                       : PASS
+   LXC: Checking &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;cgroup &lt;span class=&quot;s1&quot;&gt;'blkio'&lt;/span&gt; controller mount-point                   : PASS
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;enable-iommu-by-kernel&quot;&gt;Enable IOMMU by kernel&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;###Enable IOMMU support in kernel command through GRUB: *iommu=pt* *intel_iommu=on*&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;sed &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'s/GRUB_CMDLINE_LINUX=\&quot;\(.*\)\&quot;/GRUB_CMDLINE_LINUX=\&quot;\1 iommu=pt intel_iommu=on\&quot;/'&lt;/span&gt; /etc/default/grub
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;grub2-mkconfig &lt;span class=&quot;nt&quot;&gt;--output&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/boot/grub2/grub.cfg
+&lt;span class=&quot;c&quot;&gt;###reboot &lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;reboot
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;physical-nic-pci-passthrough&quot;&gt;Physical NIC PCI Passthrough&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;###--hostdev, A node device name via libvirt, as shown by 'virsh nodedev-list' &lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#[stack@localhost ~]$ sudo lspci | grep -i ethernet&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#04:00.0 Ethernet controller: Emulex Corporation OneConnect NIC (Skyhawk) (rev 10)&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#04:00.1 Ethernet controller: Emulex Corporation OneConnect NIC (Skyhawk) (rev 10)&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#04:00.2 Ethernet controller: Emulex Corporation OneConnect NIC (Skyhawk) (rev 10)&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#04:00.3 Ethernet controller: Emulex Corporation OneConnect NIC (Skyhawk) (rev 10)&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;virsh nodedev-list | &lt;span class=&quot;nb&quot;&gt;grep &lt;/span&gt;pci_0000_04
+pci_0000_04_00_0
+pci_0000_04_00_1
+pci_0000_04_00_2
+pci_0000_04_00_3
+
+&lt;span class=&quot;nt&quot;&gt;--hostdev&lt;/span&gt; pci_0000_04_00_3
+
+ Node Device &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;help &lt;/span&gt;keyword &lt;span class=&quot;s1&quot;&gt;'nodedev'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    nodedev-create                 create a device defined by an XML file on the node
+    nodedev-destroy                destroy &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;stop&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; a device on the node
+    nodedev-detach                 detach node device from its device driver
+    nodedev-dumpxml                node device details &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;XML
+    nodedev-list                   enumerate devices on this host
+    nodedev-reattach               reattach node device to its device driver
+    nodedev-reset                  reset node device
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;###Create an install shell script with one Ethernet NIC passthrough into VM &lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;cat&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; ./vm-centos7-install-pt.sh &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;EOF&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;
+#CentOS 7
+NAME=vm2-centos7
+NIC=\&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;
+
+virt-install \
+--name \&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$NAME&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt; \
+--vcpus 1 \
+--memory 1024 \
+--disk path=/var/lib/libvirt/images/\&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$NAME&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;.qcow2,size=8 \
+--os-type linux \
+--os-variant centos7.0  \
+--network bridge=virbr0 \
+--hostdev \&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$NIC&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt; \
+--graphics none \
+--console pty,target_type=serial \
+--location 'http://free.nchc.org.tw/centos/7/os/x86_64/' \
+--extra-args 'console=ttyS0,115200n8 serial ks=http://HostIP/centos7-ks.cfg' 
+&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;EOF
+
+&lt;/span&gt;chmod +x vm-centos7-install-pt.sh &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt; ./vm-centos7-install-pt.sh pci_0000_04_00_3
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;virtual-networking---libvirt-domain-xml-file-for-vms&quot;&gt;Virtual Networking - libvirt domain xml file for VMs&lt;/h2&gt;
 
@@ -466,7 +569,7 @@ insmod ../dpdk-2.2.0/x86_64-native-linuxapp-gcc/kmod/igb_uio.ko
 
 &lt;h2 id=&quot;dpdk-examples&quot;&gt;DPDK Examples&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/DPDK_Examples.jpg&quot; alt=&quot;DPDK_Examples.jpg&quot; /&gt;&lt;/p&gt;</content><author><name>AIMLDL</name></author><category term="Linux" /><summary type="html">KVM</summary></entry><entry><title type="html">Useful Open Source Tools</title><link href="http://localhost:4000/techpubs/utilities/Tools/" rel="alternate" type="text/html" title="Useful Open Source Tools" /><published>2018-01-23T00:00:00-05:00</published><updated>2018-01-23T00:00:00-05:00</updated><id>http://localhost:4000/techpubs/utilities/Tools</id><content type="html" xml:base="http://localhost:4000/techpubs/utilities/Tools/">&lt;table rules=&quot;groups&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/DPDK_Examples.jpg&quot; alt=&quot;DPDK_Examples.jpg&quot; /&gt;&lt;/p&gt;</content><author><name>AIMLDL</name></author><category term="Linux" /><summary type="html">KVM</summary></entry><entry><title type="html">Useful Open Source Tools</title><link href="http://172.17.5.42:4000/techpubs/utilities/Tools/" rel="alternate" type="text/html" title="Useful Open Source Tools" /><published>2018-01-23T00:00:00-05:00</published><updated>2018-01-23T00:00:00-05:00</updated><id>http://172.17.5.42:4000/techpubs/utilities/Tools</id><content type="html" xml:base="http://172.17.5.42:4000/techpubs/utilities/Tools/">&lt;table rules=&quot;groups&quot;&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th&gt;Windows&lt;/th&gt;
@@ -509,7 +612,7 @@ insmod ../dpdk-2.2.0/x86_64-native-linuxapp-gcc/kmod/igb_uio.ko
       &lt;td&gt;Create bootable USB drives the easy way&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>AIMLDL</name></author><category term="Windows" /><category term="Linux" /><category term="Mac" /><summary type="html">Windows Descriptions Rufus Create bootable USB drives the easy way</summary></entry><entry><title type="html">CentOS/RHEL-based</title><link href="http://localhost:4000/techpubs/linux/RedHat-Like/" rel="alternate" type="text/html" title="CentOS/RHEL-based" /><published>2017-12-28T00:00:00-05:00</published><updated>2017-12-28T00:00:00-05:00</updated><id>http://localhost:4000/techpubs/linux/RedHat-Like</id><content type="html" xml:base="http://localhost:4000/techpubs/linux/RedHat-Like/">&lt;h2 id=&quot;file-systems&quot;&gt;File Systems&lt;/h2&gt;
+&lt;/table&gt;</content><author><name>AIMLDL</name></author><category term="Windows" /><category term="Linux" /><category term="Mac" /><summary type="html">Windows Descriptions Rufus Create bootable USB drives the easy way</summary></entry><entry><title type="html">CentOS/RHEL-based</title><link href="http://172.17.5.42:4000/techpubs/linux/RedHat-Like/" rel="alternate" type="text/html" title="CentOS/RHEL-based" /><published>2017-12-28T00:00:00-05:00</published><updated>2017-12-28T00:00:00-05:00</updated><id>http://172.17.5.42:4000/techpubs/linux/RedHat-Like</id><content type="html" xml:base="http://172.17.5.42:4000/techpubs/linux/RedHat-Like/">&lt;h2 id=&quot;file-systems&quot;&gt;File Systems&lt;/h2&gt;
 
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;###https://goo.gl/vhW1xD&lt;/span&gt;
 / 
@@ -560,7 +663,7 @@ du &lt;span class=&quot;nt&quot;&gt;-hs&lt;/span&gt; tensorflow/
   &lt;li&gt;分享上述Linux指令，其有助於提升實務上的工作效率。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;</content><author><name>AIMLDL</name></author><category term="CentOS/RHEL-based" /><summary type="html">File Systems</summary></entry><entry><title type="html">Debian-based</title><link href="http://localhost:4000/techpubs/linux/Debian-Like/" rel="alternate" type="text/html" title="Debian-based" /><published>2017-12-28T00:00:00-05:00</published><updated>2017-12-28T00:00:00-05:00</updated><id>http://localhost:4000/techpubs/linux/Debian-Like</id><content type="html" xml:base="http://localhost:4000/techpubs/linux/Debian-Like/">&lt;h2 id=&quot;file-systems&quot;&gt;File Systems&lt;/h2&gt;
+&lt;hr /&gt;</content><author><name>AIMLDL</name></author><category term="CentOS/RHEL-based" /><summary type="html">File Systems</summary></entry><entry><title type="html">Debian-based</title><link href="http://172.17.5.42:4000/techpubs/linux/Debian-Like/" rel="alternate" type="text/html" title="Debian-based" /><published>2017-12-28T00:00:00-05:00</published><updated>2017-12-28T00:00:00-05:00</updated><id>http://172.17.5.42:4000/techpubs/linux/Debian-Like</id><content type="html" xml:base="http://172.17.5.42:4000/techpubs/linux/Debian-Like/">&lt;h2 id=&quot;file-systems&quot;&gt;File Systems&lt;/h2&gt;
 
 &lt;h2 id=&quot;package-management&quot;&gt;Package Management&lt;/h2&gt;
 
@@ -580,7 +683,7 @@ du &lt;span class=&quot;nt&quot;&gt;-hs&lt;/span&gt; tensorflow/
   &lt;li&gt;分享上述Linux指令，其有助於提升實務上的工作效率。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;</content><author><name>AIMLDL</name></author><category term="Debian-based" /><summary type="html">File Systems</summary></entry><entry><title type="html">Linux Distributions</title><link href="http://localhost:4000/techpubs/linux/Linux/" rel="alternate" type="text/html" title="Linux Distributions" /><published>2017-12-27T00:00:00-05:00</published><updated>2017-12-27T00:00:00-05:00</updated><id>http://localhost:4000/techpubs/linux/Linux</id><content type="html" xml:base="http://localhost:4000/techpubs/linux/Linux/">&lt;h2 id=&quot;centosrhel-based&quot;&gt;CentOS/RHEL-based&lt;/h2&gt;
+&lt;hr /&gt;</content><author><name>AIMLDL</name></author><category term="Debian-based" /><summary type="html">File Systems</summary></entry><entry><title type="html">Linux Distributions</title><link href="http://172.17.5.42:4000/techpubs/linux/Linux/" rel="alternate" type="text/html" title="Linux Distributions" /><published>2017-12-27T00:00:00-05:00</published><updated>2017-12-27T00:00:00-05:00</updated><id>http://172.17.5.42:4000/techpubs/linux/Linux</id><content type="html" xml:base="http://172.17.5.42:4000/techpubs/linux/Linux/">&lt;h2 id=&quot;centosrhel-based&quot;&gt;CentOS/RHEL-based&lt;/h2&gt;
 
 &lt;table rules=&quot;groups&quot;&gt;
   &lt;thead&gt;
@@ -641,7 +744,7 @@ du &lt;span class=&quot;nt&quot;&gt;-hs&lt;/span&gt; tensorflow/
   &lt;li&gt;雖然市面上Linux Distribution何其多，只要掌握CentOS/RHEL-based和Debian-based兩派即可。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;</content><author><name>AIMLDL</name></author><category term="CentOS/RHEL-based" /><category term="Debian-based" /><summary type="html">CentOS/RHEL-based</summary></entry><entry><title type="html">AI Deep Learning Frameworks</title><link href="http://localhost:4000/techpubs/dl/Frameworks/" rel="alternate" type="text/html" title="AI Deep Learning Frameworks" /><published>2017-12-26T00:00:00-05:00</published><updated>2017-12-26T00:00:00-05:00</updated><id>http://localhost:4000/techpubs/dl/Frameworks</id><content type="html" xml:base="http://localhost:4000/techpubs/dl/Frameworks/">&lt;table rules=&quot;groups&quot;&gt;
+&lt;hr /&gt;</content><author><name>AIMLDL</name></author><category term="CentOS/RHEL-based" /><category term="Debian-based" /><summary type="html">CentOS/RHEL-based</summary></entry><entry><title type="html">AI Deep Learning Frameworks</title><link href="http://172.17.5.42:4000/techpubs/dl/Frameworks/" rel="alternate" type="text/html" title="AI Deep Learning Frameworks" /><published>2017-12-26T00:00:00-05:00</published><updated>2017-12-26T00:00:00-05:00</updated><id>http://172.17.5.42:4000/techpubs/dl/Frameworks</id><content type="html" xml:base="http://172.17.5.42:4000/techpubs/dl/Frameworks/">&lt;table rules=&quot;groups&quot;&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th style=&quot;text-align: left&quot;&gt;Framework&lt;/th&gt;
@@ -688,7 +791,7 @@ du &lt;span class=&quot;nt&quot;&gt;-hs&lt;/span&gt; tensorflow/
   &lt;li&gt;CNTK: Microsoft Cognitive Toolkit，最新版本2.3，支援多種開發語言，和Nvidia密切合作。&lt;/li&gt;
   &lt;li&gt;MXNET: 基於Apache MXNet，Amazon NMT開源框架Sockeye。&lt;/li&gt;
   &lt;li&gt;Pytorch: PyTorch的其一好處是能讓初學者更深入地瞭解每個演算法中發生原由。Caffe2: Caffe原創賈揚清，2016年2月由Google Brain轉戰Facebook，又一力作。&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>AIMLDL</name></author><category term="AI" /><category term="machine learning" /><category term="deep learning" /><summary type="html">Framework GitHub Stars (12/26/17) Supporter TensorFlow 83,495 Google CNTK 13,451 Microsoft MXNET 12,531 Amazon Pytorch 10,547 Facebook Caffe2 6,620 Facebook</summary></entry><entry><title type="html">Machine Learning Project Checklist</title><link href="http://localhost:4000/techpubs/ml/MLPC/" rel="alternate" type="text/html" title="Machine Learning Project Checklist" /><published>2017-12-24T00:00:00-05:00</published><updated>2017-12-24T00:00:00-05:00</updated><id>http://localhost:4000/techpubs/ml/MLPC</id><content type="html" xml:base="http://localhost:4000/techpubs/ml/MLPC/">&lt;ol&gt;
+&lt;/ul&gt;</content><author><name>AIMLDL</name></author><category term="AI" /><category term="machine learning" /><category term="deep learning" /><summary type="html">Framework GitHub Stars (12/26/17) Supporter TensorFlow 83,495 Google CNTK 13,451 Microsoft MXNET 12,531 Amazon Pytorch 10,547 Facebook Caffe2 6,620 Facebook</summary></entry><entry><title type="html">Machine Learning Project Checklist</title><link href="http://172.17.5.42:4000/techpubs/ml/MLPC/" rel="alternate" type="text/html" title="Machine Learning Project Checklist" /><published>2017-12-24T00:00:00-05:00</published><updated>2017-12-24T00:00:00-05:00</updated><id>http://172.17.5.42:4000/techpubs/ml/MLPC</id><content type="html" xml:base="http://172.17.5.42:4000/techpubs/ml/MLPC/">&lt;ol&gt;
   &lt;li&gt;Frame the problem and look at the big picture.&lt;/li&gt;
   &lt;li&gt;Get the data.&lt;/li&gt;
   &lt;li&gt;Explore the data to gain insights.&lt;/li&gt;
@@ -701,7 +804,7 @@ du &lt;span class=&quot;nt&quot;&gt;-hs&lt;/span&gt; tensorflow/
 
 &lt;hr /&gt;
 
-&lt;hr /&gt;</content><author><name>AIMLDL</name></author><category term="AI" /><category term="machine learning" /><category term="deep learning" /><summary type="html">Frame the problem and look at the big picture. Get the data. Explore the data to gain insights. Prepare the data to better expose the underlying data patterns to Machine Learning algorithms. Explore many different models and short-list the best ones. Fine-tune your models and combine them into a great slution. Present your solution. Launch, monitor, and maintain your system.</summary></entry><entry><title type="html">Getting Started</title><link href="http://localhost:4000/techpubs/ml/Getting_Started/" rel="alternate" type="text/html" title="Getting Started" /><published>2017-12-24T00:00:00-05:00</published><updated>2017-12-24T00:00:00-05:00</updated><id>http://localhost:4000/techpubs/ml/Getting_Started</id><content type="html" xml:base="http://localhost:4000/techpubs/ml/Getting_Started/">&lt;ul&gt;
+&lt;hr /&gt;</content><author><name>AIMLDL</name></author><category term="AI" /><category term="machine learning" /><category term="deep learning" /><summary type="html">Frame the problem and look at the big picture. Get the data. Explore the data to gain insights. Prepare the data to better expose the underlying data patterns to Machine Learning algorithms. Explore many different models and short-list the best ones. Fine-tune your models and combine them into a great slution. Present your solution. Launch, monitor, and maintain your system.</summary></entry><entry><title type="html">Getting Started</title><link href="http://172.17.5.42:4000/techpubs/ml/Getting_Started/" rel="alternate" type="text/html" title="Getting Started" /><published>2017-12-24T00:00:00-05:00</published><updated>2017-12-24T00:00:00-05:00</updated><id>http://172.17.5.42:4000/techpubs/ml/Getting_Started</id><content type="html" xml:base="http://172.17.5.42:4000/techpubs/ml/Getting_Started/">&lt;ul&gt;
   &lt;li&gt;Machine Learning: Use data to compute hypothesis g that appromimates target f&lt;/li&gt;
   &lt;li&gt;Data Mining: Use (huge) data to find property that is interesting&lt;/li&gt;
   &lt;li&gt;Artificial Intelligence: Compute something that shows intelligent behavior&lt;/li&gt;
