@@ -22,6 +22,7 @@ toc: true
 
 * [Distill - Clear explanations of machine learning](https://distill.pub/){:target="_blank"} 
 * [Machine Learning Mastery](https://machinelearningmastery.com/blog/){:target="_blank"}
+  * [ML Performacce Improvement Cheat Sheet](https://goo.gl/mWUxCD){:target="_blank"}
 * [Synced - AI Technology and Industry](https://syncedreview.com/){:target="_blank"}
 * [Towards Data Science](https://towardsdatascience.com/){:target="_blank"}
 * [机器之心](https://www.jiqizhixin.com/){:target="_blank"}
